@@ -160,7 +160,7 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 
-    transition: color var(--transition-duration-function), background-color var(--transition-duration-function), box-shadow var(--transition-duration-function);
+    transition: color var(--transition-duration-function), fill var(--transition-duration-function), box-shadow var(--transition-duration-function);
 }
 
 .contacts .link.social {
@@ -405,7 +405,7 @@ ul {
     border-radius: 50%;
     fill: #AFB1B8;
 
-    transition: color var(--transition-duration-function), background-color var(--transition-duration-function), box-shadow var(--transition-duration-function);
+    transition: color var(--transition-duration-function), fill var(--transition-duration-function), box-shadow var(--transition-duration-function);
 }   
 
 .social-link:hover,
@@ -424,7 +424,7 @@ ul {
 .link-icon {
     fill:#AFB1B8;
 
-    transition: color var(--transition-duration-function), background-color var(--transition-duration-function), box-shadow var(--transition-duration-function);
+    transition: fill var(--transition-duration-function);
 }
 
 .link-company {
@@ -436,7 +436,7 @@ ul {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 
-    transition: color var(--transition-duration-function), background-color var(--transition-duration-function), box-shadow var(--transition-duration-function);
+    transition: color var(--transition-duration-function), fill var(--transition-duration-function), box-shadow var(--transition-duration-function);
 }
 
 .icon-company {
@@ -521,8 +521,7 @@ ul {
 .work-overlay {
     position: relative;
     overflow: hidden;
-
-    transition: color var(--transition-duration-function), background-color var(--transition-duration-function), box-shadow var(--transition-duration-function);
+    
 }
 
 .text-overlay {
@@ -640,7 +639,7 @@ ul {
     background: rgba(255, 255, 255, 0.1);
     fill: #FFFFFF;
 
-    transition: color var(--transition-duration-function), background-color var(--transition-duration-function), box-shadow var(--transition-duration-function);
+    transition: fill var(--transition-duration-function), background-color var(--transition-duration-function), box-shadow var(--transition-duration-function);
 }
 
 .footer .social-icon {
